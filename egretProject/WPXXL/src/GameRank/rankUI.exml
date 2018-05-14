@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rankUI" width="480" height="854" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="beijing_jpg" x="0" y="0" />
+    <e:Image source="paihangbang_png" x="19" y="-8" scaleX="1" scaleY="1" />
+    <e:Scroller id="RankList" width="310" height="258" x="90" y="367">
+        <e:viewport>
+            <e:List id="listGoods" width="300">
+                <e:layout>
+                    <e:VerticalLayout/>
+                </e:layout>
+            </e:List>
+        </e:viewport>
+        <e:Skin>
+			<e:VScrollBar id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+				<e:Skin>
+					<e:Image id="thumb" width="8" source="xiala_png"  scale9Grid="1,1,4,4"/>
+				</e:Skin>
+			</e:VScrollBar>
+		</e:Skin>
+    </e:Scroller>
+    <e:Button id="btn_share" label="" x="26" y="678">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="95%" height="95%" width.down="100%" height.down="100%" source="fenxiangchoujiang_png" source.down="fenxiangchoujiang_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+    <e:Button id="btn_again" label="" x="260" y="678">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image width="95%" height="95%" width.down="100%" height.down="100%" source="zaiwanyici_png" source.down="zaiwanyici_png" />
+                <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:BitmapLabel id="rankLabel" x="106" y="278" width="64" height="47" text="16" font="btsz2_fnt" textAlign="center"/>
+	<e:BitmapLabel id="getScore" x="222" y="305" width="132" height="51" textAlign="center" text="1000" font="btsz2_fnt" scaleX="0.5" scaleY="0.4"/>
+	<e:Label id="nameLabel" text="忧郁小馒头" x="196" y="270" size="18" verticalAlign="middle" textAlign="center" height="25" width="103"/>
+	<e:Group id="touXiang" width="59" height="59" x="317" y="270">
+		<e:Image source="touxiang_png" x="0" y="0" width="59" height="59" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="loadingUI" width="480" height="854" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="beijing5_jpg" x="0" y="0"/>
+	<e:Button id="btn_play" label="" x="75" y="421" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="95%" height="95%"  width.down ="100%" height.down = "100%" source="play_png" source.down="play_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	
+</e:Skin>

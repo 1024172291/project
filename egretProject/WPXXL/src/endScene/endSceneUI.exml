@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="endSceneUI" width="480" height="854" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="beijing_jpg" x="0" y="0"/>
+	<e:Image source="gameover_png" y="0" horizontalCenter="3.5"/>
+	<e:Image id="erWeiMa" source="erweima_png" x="144" y="430"/>
+</e:Skin>

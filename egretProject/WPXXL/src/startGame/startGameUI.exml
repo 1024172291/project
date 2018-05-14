@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="startGameUI" width="480" height="854" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="beijing_jpg" x="0" y="0"/>
+	<e:Image x="24" y="-29" source="xiaoxiaole_png"/>
+	<e:BitmapLabel id="countTimeLabel" width="91" height="53" font="btsz1_fnt" text="59" scaleX="0.8" scaleY="0.8" x="303" y="177" textAlign="center"/>
+	<e:Label id="playerName" text="clearlove" x="96" y="194" width="65" height="25" size="15" textAlign="center" verticalAlign="middle"/>
+	<e:Image source="dangqiandefen_png" x="84" y="649"/>
+	<e:BitmapLabel id="scoreLabel" x="199" width="178" height="50" text="99999" font="btsz2_fnt" y="686" textAlign="center"/>
+	<e:Group id="totalGroup" width="416" height="415" horizontalCenter="0" verticalCenter="8.5">
+		<e:Image source="game_png" x="0" y="0"/>
+	</e:Group>
+	<e:Group id="touXiang" width="58" height="57" x="99" y="138">
+		<e:Image source="touxiang_png" x="0" y="0" width="58" height="57" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

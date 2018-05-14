@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="yyy" width="480" height="854" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="yaoyiyao_jpg" x="0" y="0"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rankListUI" width="300" height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="157db8bad37"/>
+	<e:Image source="dikuang_png" x="0" y="0" width="100%" height="100%"/>
+    <e:BitmapLabel id="rankLabel" x="18" y="17" width="64" height="47" font="btsz2_fnt" textAlign="center" text="{data.order}"/>
+	<e:BitmapLabel id="getScore" x="132" y="46" width="132" height="51" textAlign="center" text="{data.score}" font="btsz2_fnt" scaleX="0.5" scaleY="0.4"/>
+	<e:Label id="nameLabel" x="106" y="13" width="103" height="25" size="23" verticalAlign="middle" textAlign="center" text="{data.nickname}"/>
+	<e:Image id="touXiang" x="226" y="10" width="59" height="59" scaleX="1" scaleY="1" source="{data.headimgurl}"/>
+</e:Skin>

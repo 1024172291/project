@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="inputSceneUI" width="480" height="854" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="beijing_jpg" x="0" y="0"/>
+	<e:Image source="zhongjiangxinzi_png" y="2" horizontalCenter="2"/>
+	<e:Image source="shoujihao_png" x="91" y="390"/>
+	<e:TextInput id="inputPhone" x="155" y="391" width="220" height="45" maxWidth="100000"/>
+	<e:Button id="onNext" label="" x="144" y="475">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="95%" height="95%" width.down="100%" height.down="100%" source="xiayibu_png" source.down="xiayibu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>
